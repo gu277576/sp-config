@@ -14,5 +14,6 @@ public class Item {
 	private Integer id;
 	//b编辑名称
 	private String name;
+	//编号
 	private Integer number;
 }
