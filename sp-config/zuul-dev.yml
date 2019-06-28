@@ -12,12 +12,7 @@ eureka:
 
 zuul:
   retryable: true
-  #以下缺省,默认到注册中心获取
-  #routes:
-    #item-service: /item-service/**
-    #user-service: /user-service/**
-    #order-service: /order-service/**
-    
+  
 ribbon:
   ConnectTimeout: 1000
   ReadTimeout: 2000
@@ -31,8 +26,7 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 500
-
-#添加暴露端点            
+    
 management:
   endpoints:
     web:
