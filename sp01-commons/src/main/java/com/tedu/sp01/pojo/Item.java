@@ -15,5 +15,8 @@ public class Item {
 	//b编辑名称
 	private String name;
 	//编号 什么玩意搞不明白
+	//编号   就是创造冲突
 	private Integer number;
+	
+	//哇哈哈哈
 }
